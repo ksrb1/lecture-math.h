@@ -1,0 +1,6 @@
+double userInput{};
+
+	cout << "Enter a number to see its square root and cube root: ";
+	cin >> userInput;
+	cout << "The square-root of 8 is " << sqrt(userInput) << endl;
+	cout << "The cube-root of 8 is " << cbrt(userInput) << endl;
